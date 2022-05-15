@@ -9,7 +9,7 @@ var options = {
   appid: null,
   channel: null,
   // uid: "web" + Math.random().toString(16).substr(2).toLowerCase(),
-  uid: 555,
+  uid: "666",
   token: null,
   role: "audience" // host or audience
 };
