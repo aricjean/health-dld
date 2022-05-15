@@ -75,7 +75,8 @@ async function join() {
     client.on("user-unpublished", handleUserUnpublished);
   // }
 
-  console.log("options.appid, options.channel, options.token || null, options.uid:", options.appid, options.channel, options.token || null, options.uid)
+  // console.log("options.appid, options.channel, options.token || null, options.uid:", options.appid, options.channel, options.token || null, options.uid)
+  console.log("options:", options)
   // join the channel
   options.uid = await client.join(options.appid, options.channel, options.token || null, options.uid);
 
